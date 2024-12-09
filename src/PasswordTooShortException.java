@@ -1,7 +1,7 @@
 class PasswordTooShortException extends Exception {
     int id ;
     public PasswordTooShortException(){
-        System.out.println("The password is too");
+        System.out.println("The password is too short");
     }
     public PasswordTooShortException(String msg) {
         super(msg);
